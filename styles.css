@@ -4,7 +4,12 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #ffffff;
+    background-image: url('fondo2.jpg');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .container {

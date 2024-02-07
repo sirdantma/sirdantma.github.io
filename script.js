@@ -164,6 +164,11 @@ document.getElementById('noBtn').addEventListener('click', function() {
            
             document.getElementById('noBtn').innerHTML = 'Estaré muy muy muy muy triste.';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+            
+            document.getElementById('sadGifContainer').style.display = 'none';
+            document.getElementById('sadGifContainer2').style.display = 'none';
+            document.getElementById('sadGifContainer1').style.display = 'none';
+            document.getElementById('sadGifContainer4').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '160px';
@@ -210,6 +215,11 @@ document.getElementById('noBtn').addEventListener('click', function() {
            
             document.getElementById('noBtn').innerHTML = 'Estás rompiendo mi corazón :(';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+            document.getElementById('sadGifContainer').style.display = 'none';
+            document.getElementById('sadGifContainer2').style.display = 'none';
+            document.getElementById('sadGifContainer1').style.display = 'none';
+            document.getElementById('sadGifContainer4').style.display = 'none';
+            document.getElementById('sadGifContainer5').style.display = 'block';
 
             document.getElementById('siBtn').style.fontSize = '240px';
             document.getElementById('siBtn').style.padding = '150px 240px';
@@ -245,6 +255,13 @@ document.getElementById('noBtn').addEventListener('click', function() {
            
             document.getElementById('noBtn').innerHTML = 'Me toy poniendo tiste again';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+            document.getElementById('sadGifContainer').style.display = 'none';
+            document.getElementById('sadGifContainer2').style.display = 'none';
+            document.getElementById('sadGifContainer1').style.display = 'none';
+            document.getElementById('sadGifContainer4').style.display = 'none';
+            document.getElementById('sadGifContainer5').style.display = 'none';
+
+            document.getElementById('sadGifContainer3').style.display = 'block';
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '300px';
@@ -257,6 +274,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
            
             document.getElementById('noBtn').innerHTML = 'Carita triste :(';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '320px';
@@ -296,8 +314,12 @@ document.getElementById('noBtn').addEventListener('click', function() {
                 document.getElementById('sadGifContainer').style.display = 'none';
                 document.getElementById('sadGifContainer1').style.display = 'none';
                 document.getElementById('sadGifContainer2').style.display = 'none';
+                document.getElementById('sadGifContainer3').style.display = 'none';
+                document.getElementById('sadGifContainer4').style.display = 'none';
+                document.getElementById('sadGifContainer5').style.display = 'none';
                 document.getElementById('gifContainer').style.display = 'block';
                 document.getElementById('happyGifContainer').style.display = 'none';
+    
                 // Vuelve al estado 0
                 noButtonState = 0;
                 break;
