@@ -23,7 +23,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
 
     // Mostrar el mensaje específico
     document.getElementById('messageContainer').style.display = 'block';
-    document.getElementById('messageContainer').innerHTML = '¡Oh Siii! jajaja, igual te odio Sunakito que diga Botadakito';
+    document.getElementById('messageContainer').innerHTML = 'Lo suponia aùn me quieres, bueno aùn asi yo te siguo queriendo';
 
     // Mostrar otro gif después de 3 segundos
     setTimeout(function() {
